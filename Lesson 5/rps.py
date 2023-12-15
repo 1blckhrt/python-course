@@ -34,4 +34,3 @@ elif player == computer:
     print("😲 It's a tie!")
 else: 
     print("🐍 Python wins!")
-
