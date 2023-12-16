@@ -11,3 +11,14 @@ def sum(num1 = 0, num2 = 0):
 total = sum()
 print(total)
 
+def multiple_items(*args):
+    print(args)
+    print(type(args))
+
+multiple_items("Dave", "John", "Sara")
+
+def mult_named_items(**kwargs):
+    print(kwargs)
+    print(type(kwargs))
+
+mult_named_items(first = "Dave", last = "Gray")

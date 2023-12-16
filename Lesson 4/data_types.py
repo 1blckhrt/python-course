@@ -4,7 +4,7 @@ import math
 
 # Literal assignment of values
 first = "Dave"
-last = "Graay"
+last = "Gray"
 
 print(type(first))
 print(type(first) == str)
